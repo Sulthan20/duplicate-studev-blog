@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-programkursus {
+    font-size: 13px;
+    font-weight: 400;
+    color: #687385;
+    font-style: inter;
+}
