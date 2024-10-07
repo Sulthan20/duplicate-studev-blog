@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: "F8F8F8",
       },
+      fontFamily: {
+        inter : ['Inter'],
+        sans : ['Plus Jakarta Sans', 'sans-serif'],
+      }
     },
   },
   plugins: [],
