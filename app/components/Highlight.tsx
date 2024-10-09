@@ -12,7 +12,7 @@ const Highlight = () => {
               <div className="col-md-3 align-self-center">
                 <ul className="list-none justify-center items-center gap-10">
                   <li className={'text-hilight ${geistSans.variable}'}>
-                      Highlight
+                      HIGHLIGHT
                   </li>
                 </ul>
               </div>

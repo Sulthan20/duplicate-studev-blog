@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Crimson Pro';
+    src: url('fonts/CrimsonPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
 
 .text-programkursus {
     font-size: 12px;
@@ -18,7 +23,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #000001;
-    font-style: 'Crimson Pro';
+    font-family: 'Crimson Pro';
 }
 .thumb-overlay {
     position: relative;
