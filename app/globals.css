@@ -6,6 +6,15 @@
     src: url('fonts/CrimsonPro-Regular.ttf') format('truetype');
     font-weight: normal;
 }
+.image-class {
+    height: 50px; /* Atur ukuran gambar sesuai kebutuhan */
+    width: auto;
+  }
+  ul {
+    display: flex;
+    align-items: center; /* Ini akan membuat gambar dan teks berada di satu garis horizontal */
+  }
+  
 
 .text-programkursus {
     font-size: 12px;
