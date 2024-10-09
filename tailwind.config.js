@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         inter : ['Inter'],
         sans : ['Plus Jakarta Sans', 'sans-serif'],
+        crimson : ['Crimson Pro', 'serif'],
       }
     },
   },
