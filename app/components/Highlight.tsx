@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Sejarah from "../public/Sejarah Singkat Beasiswa di Indonesia.svg";
 import Ellipse from "../public/Gray Ellipse .svg";
+import Memahami from "../public/Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg";
 
 const Highlight = () => {
     return (
@@ -28,7 +29,7 @@ const Highlight = () => {
           <div className="h-[320px] px-[76px] flex items-center justify-start gap-5">
             <div className="col-lg-8 mb-30">
               <div className="carausel-post-1 hover-up border-radius-10 overflow-hidden gap-4 items-center justify-start">
-                <div className="thumb-overlay img-hover-slide position-relative ">
+                <div className="thumb-overlay img-hover-slide position-relative">
                   <Image src={Sejarah} alt="Sejarah Singkat Beasiswa di Indonesia.svg" className="image-overlay" />
                   <div className="overlay-text transform -translate-y-3">
                   <h2 className={'text-kategori ${geistSans.variable} mt-1 mb-2 pr-3m pl-3 flex items-center gap-1'}>
@@ -43,7 +44,10 @@ const Highlight = () => {
               </div>  
             </div>
           <article className="col-lg-4 col-md-6 mt-1" >
-            <div className="w-[320px] h-[428px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.12)] shadow-lg ml-4 items-center justify-center flex hover-up custom-shadow">
+            <div className="w-[320px] h-[428px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.12)] shadow-lg ml-4 items-center justify-center hover-up">
+              <div className="thumb-overlay position-relative img-hover-article">
+                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg" className=""></Image>
+              </div>
             </div>
           </article>  
       </div>
