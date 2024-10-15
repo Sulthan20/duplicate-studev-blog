@@ -26,7 +26,7 @@ const Highlight = () => {
       
       <div className="loop-grid mb-30">
         <div className="flex row">
-          <div className="h-[320px] px-[76px] flex items-center justify-start gap-5">
+          <div className="h-[320px] px-[76px] flex items-center justify-start gap-3">
             <div className="col-lg-8 mb-30">
               <div className="carausel-post-1 hover-up border-radius-10 overflow-hidden gap-4 items-center justify-start">
                 <div className="thumb-overlay img-hover-slide position-relative">
@@ -43,10 +43,10 @@ const Highlight = () => {
                 </div>
               </div>  
             </div>
-          <article className="col-lg-4 col-md-6 mt-1" >
-            <div className="w-[320px] h-[428px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.12)] shadow-lg ml-4 items-center justify-center hover-up">
-              <div className="thumb-overlay position-relative img-hover-article">
-                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg" className=""></Image>
+          <article className="col-lg-4 col-md-6 mt-2" >
+            <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.12)] shadow-lg ml-4 items-center justify-center hover-up">
+              <div className="thumb-overlay-article position-relative img-hover-article">
+                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
               </div>
             </div>
           </article>  
