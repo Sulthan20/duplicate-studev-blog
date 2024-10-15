@@ -46,7 +46,18 @@ const Highlight = () => {
           <article className="col-lg-4 col-md-6 mt-2" >
             <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.12)] shadow-lg ml-4 items-center justify-center hover-up">
               <div className="thumb-overlay-article position-relative img-hover-article">
-                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
+                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg">
+                </Image>
+              </div>
+              <div className="post-content p-30">
+                  <div className="flex mb-1">
+                    <h1 className={'text-kategori ${geistSans.variable} mt-1 pl-1 flex items-center gap-1'}>
+                      Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image>
+                    </h1>
+                  </div>
+                  <h2 className={'text-judul-article ${geistSans.variable} mb-2 pl-1'}>
+                      Memahami Dua Tahap Pendaftaran Beasiswa LPDP
+                    </h2>
               </div>
             </div>
           </article>  
