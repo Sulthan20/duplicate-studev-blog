@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <header className="main-header header-style-1 font-heading">
             <div className="header-top">
-                <div className="container mx-auto h-[78px] px-[76px] flex items-center justify-between">    
-                    <Image src={logo} alt="logo.svg" />
+                <div className="container mx-auto h-[78px]  flex items-center justify-between">    
+                    <Image src={logo} alt="logo.svg" className="mx-15" />
                     <div className="col-md-9 col-xs-6 text-right header-top-right">
                         <ul className="list-inline nav-topbar d-none d-md-inline">
                             <li className={'text-programkursus ${geistSans.variable}'}>
@@ -21,8 +21,8 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="container mx-auto h-[21px] px-0 flex items-center justify-between">
-                <hr className="w-full border-t border-gray-300">
+            <div className="h-[5px] flex items-center justify-between">
+                <hr className="w-full border-t border-style-solid">
                 </hr>
             </div>
             <div className="header-sticky">

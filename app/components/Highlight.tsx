@@ -8,11 +8,11 @@ const Highlight = () => {
     return (
     <main>
       <div className="container">
-        <div className="hot-tags pt-30 pb-30 mb-10 align-self-center">
+        <div className="hot-tags pb-10 align-self-center">
           <div className="mx-auto h-[105px] px-[76px] flex items-center justify-between">
             <div className="widget-header-3">
               <div className="row align-self-center">
-                <div className="col-lg-8 mb-30 align-self-center">
+                <div className="col-lg-8 align-self-center">
                   <ul className="list-none justify-center items-center">
                     <li className={'text-hilight ${geistSans.variable}'}>
                       HIGHLIGHT
@@ -23,51 +23,63 @@ const Highlight = () => {
             </div>
           </div>
         </div>
-      
-      <div className="loop-grid mb-30">
-        <div className="flex row">
-          <div className="h-[320px] px-[76px] flex items-center justify-start gap-3">
-            <div className="col-lg-8 mb-30">
-              <div className="carausel-post-1 hover-up border-radius-10 overflow-hidden gap-4 items-center justify-start">
-                <div className="thumb-overlay img-hover-slide position-relative">
-                  <Image src={Sejarah} alt="Sejarah Singkat Beasiswa di Indonesia.svg" className="image-overlay" />
-                  <div className="overlay-text transform -translate-y-3">
-                  <h2 className={'text-kategori ${geistSans.variable} mt-1 mb-2 pr-3m pl-3 flex items-center gap-1'}>
-                    INFO BEASISWA <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h2>
-                  <h3 className={'text-judul ${geistSans.variable} mt-3 mb-2 pr-5m pl-3'}>
-                    Perjalanan Singkat Beasiswa di Indonesia</h3>
-                  <h4 className={'text-publish ${geistSans.variable} mt-5 pr-5m pl-4'}>
-                    <span className="post-on">14 August 2024 12:10</span>
-                  </h4>
+        
+        <div className="loop-grid mb-30">
+          <div className="row">
+            <div className="h-[320px] px-[76px] flex items-center justify-start gap-3">
+              <div className="col-lg-8 mb-30">
+                <div className="carausel-post-1 hover-up border-radius-10 overflow-hidden gap-4 items-center justify-start">
+                  <div className="thumb-overlay img-hover-slide position-relative">
+                    <Image src={Sejarah} alt="Sejarah Singkat Beasiswa di Indonesia.svg" className="image-overlay" />
+                    <div className="overlay-text transform -translate-y-3">
+                      <h2 className={'text-kategori ${geistSans.variable} mt-1 mb-2 pr-3m pl-3 flex items-center gap-1'}>
+                      INFO BEASISWA <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h2>
+                      <h3 className={'text-judul ${geistSans.variable} mt-3 mb-2 pr-5m pl-3'}>
+                      Perjalanan Singkat Beasiswa di Indonesia</h3>
+                      <h4 className={'text-publish ${geistSans.variable} mt-5 pr-5m pl-4'}>
+                      <span className="post-on">14 August 2024 12:10</span></h4>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+              <article className="col-lg-4 col-md-6 -mt-4" >
+                <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ml-4 items-center justify-center hover-up">
+                  <div className="thumb-overlay-article position-relative img-hover-article">
+                    <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
+                  </div>
+                  <div className="post-content p-30">
+                    <div className="flex">
+                      <h1 className={'text-kategori ${geistSans.variable} mt-1 pl-1 flex items-center gap-1'}>
+                        Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
+                    </div>
+                    <h2 className={'text-judul-article ${geistSans.variable} pl-1 mb-12'}>
+                      Memahami Dua Tahap Pendaftaran Beasiswa LPDP</h2>
+                    <h3 className={'text-publish-article ${geistSans.variable} pl-1'}>
+                      09 AUGUST 2024 13:11</h3>
                   </div>
                 </div>
-              </div>  
+              </article>
             </div>
-          <article className="col-lg-4 col-md-6 mt-2" >
-            <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.12)] shadow-lg ml-4 items-center justify-center hover-up">
-              <div className="thumb-overlay-article position-relative img-hover-article">
-                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg">
-                </Image>
-              </div>
-              <div className="post-content p-30">
+            <article className="col-lg-4 col-md-6 mt-20 pl-20" >
+              <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg -ml-1 items-center justify-center hover-up">
+                <div className="thumb-overlay-article position-relative img-hover-article">
+                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
+                </div>
+                <div className="post-content p-30">
                   <div className="flex">
                     <h1 className={'text-kategori ${geistSans.variable} mt-1 pl-1 flex items-center gap-1'}>
-                      Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image>
-                    </h1>
+                    Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
                   </div>
                   <h2 className={'text-judul-article ${geistSans.variable} pl-1 mb-12'}>
-                    Memahami Dua Tahap Pendaftaran Beasiswa LPDP
-                  </h2>
+                    Memahami Dua Tahap Pendaftaran Beasiswa LPDP</h2>
                   <h3 className={'text-publish-article ${geistSans.variable} pl-1'}>
-                    09 AUGUST 2024 13:11
-                  </h3>
+                    09 AUGUST 2024 13:11</h3>
+                </div>
               </div>
-            </div>
-          </article>  
-      </div>
-      </div>
-      </div>
-    </div>  
+            </article>  
+          </div>
+        </div>
+      </div>  
     </main>  
     );
   };
