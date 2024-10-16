@@ -65,10 +65,15 @@
   color: #000001;
   font-family: 'Crimson Pro Medium';
 }
-.text-publish{
+.text-publish {
   font-size: 12px;
   font-weight: normal;
   color: #FFFFFF;
+  font-family: 'Karla Medium';
+}
+.text-publish-article {
+  font-size: 10px;
+  color: #666666;
   font-family: 'Karla Medium';
 }
 .thumb-overlay {

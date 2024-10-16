@@ -50,14 +50,17 @@ const Highlight = () => {
                 </Image>
               </div>
               <div className="post-content p-30">
-                  <div className="flex mb-1">
+                  <div className="flex">
                     <h1 className={'text-kategori ${geistSans.variable} mt-1 pl-1 flex items-center gap-1'}>
                       Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image>
                     </h1>
                   </div>
-                  <h2 className={'text-judul-article ${geistSans.variable} mb-2 pl-1'}>
-                      Memahami Dua Tahap Pendaftaran Beasiswa LPDP
-                    </h2>
+                  <h2 className={'text-judul-article ${geistSans.variable} pl-1 mb-12'}>
+                    Memahami Dua Tahap Pendaftaran Beasiswa LPDP
+                  </h2>
+                  <h3 className={'text-publish-article ${geistSans.variable} pl-1'}>
+                    09 AUGUST 2024 13:11
+                  </h3>
               </div>
             </div>
           </article>  
