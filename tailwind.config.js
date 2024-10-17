@@ -14,6 +14,7 @@ module.exports = {
         inter : ['Inter'],
         sans : ['Plus Jakarta Sans', 'sans-serif'],
         crimson : ['Crimson Pro', 'serif'],
+        karla : ['karla', 'sans-serif'],
       }
     },
   },

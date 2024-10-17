@@ -3,13 +3,16 @@ import Image from "next/image";
 import Sejarah from "../public/Sejarah Singkat Beasiswa di Indonesia.svg";
 import Ellipse from "../public/Gray Ellipse .svg";
 import Memahami from "../public/Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg";
+import Persiapan from "../public/Persiapan IELTS.svg";
+import WorkHoli from "../public/Working Holiday Visa (WHV) peluang tinggal di luar negeri.svg";
+import InfoLengkap from "../public/Informasi Lengkap Tentang Working Holiday Visa Australia.svg";
 
 const Highlight = () => {
     return (
     <main>
       <div className="container">
-        <div className="hot-tags pb-10 align-self-center">
-          <div className="mx-auto h-[105px] px-[76px] flex items-center justify-between">
+        <div className="hot-tags align-self-center">
+          <div className="mx-auto h-[105px]  flex items-center justify-between">
             <div className="widget-header-3">
               <div className="row align-self-center">
                 <div className="col-lg-8 align-self-center">
@@ -25,10 +28,10 @@ const Highlight = () => {
         </div>
         
         <div className="loop-grid mb-30">
-          <div className="row">
-            <div className="h-[320px] px-[76px] flex items-center justify-start gap-3">
+          <div className="block row">
+            <div className="flex items-center gap-5">
               <div className="col-lg-8 mb-30">
-                <div className="carausel-post-1 hover-up border-radius-10 overflow-hidden gap-4 items-center justify-start">
+                <div className="carausel-post-1 border-radius-10 overflow-hidden items-center justify-start">
                   <div className="thumb-overlay img-hover-slide position-relative">
                     <Image src={Sejarah} alt="Sejarah Singkat Beasiswa di Indonesia.svg" className="image-overlay" />
                     <div className="overlay-text transform -translate-y-3">
@@ -42,41 +45,69 @@ const Highlight = () => {
                   </div>
                 </div>  
               </div>
-              <article className="col-lg-4 col-md-6 -mt-4" >
-                <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ml-4 items-center justify-center hover-up">
+              <article className="col-lg-8 -ml-1.5" >
+                <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
                   <div className="thumb-overlay-article position-relative img-hover-article">
                     <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
                   </div>
                   <div className="post-content p-30">
-                    <div className="flex">
-                      <h1 className={'text-kategori ${geistSans.variable} mt-1 pl-1 flex items-center gap-1'}>
+                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
                         Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
-                    </div>
-                    <h2 className={'text-judul-article ${geistSans.variable} pl-1 mb-12'}>
+                    <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
                       Memahami Dua Tahap Pendaftaran Beasiswa LPDP</h2>
-                    <h3 className={'text-publish-article ${geistSans.variable} pl-1'}>
+                    <h3 className={'text-publish-article ${geistSans.variable}'}>
                       09 AUGUST 2024 13:11</h3>
                   </div>
                 </div>
               </article>
             </div>
-            <article className="col-lg-4 col-md-6 mt-20 pl-20" >
-              <div className="w-[343px] h-[420px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg -ml-1 items-center justify-center hover-up">
-                <div className="thumb-overlay-article position-relative img-hover-article">
-                <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
-                </div>
-                <div className="post-content p-30">
-                  <div className="flex">
-                    <h1 className={'text-kategori ${geistSans.variable} mt-1 pl-1 flex items-center gap-1'}>
-                    Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
+            <div className="flex ">
+            <article className="col-lg-4 col-md-6 " >
+            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+                  <div className="thumb-overlay-article position-relative img-hover-article">
+                    <Image src={Persiapan} alt="Persiapan IELTS.svg"></Image>
                   </div>
-                  <h2 className={'text-judul-article ${geistSans.variable} pl-1 mb-12'}>
-                    Memahami Dua Tahap Pendaftaran Beasiswa LPDP</h2>
-                  <h3 className={'text-publish-article ${geistSans.variable} pl-1'}>
-                    09 AUGUST 2024 13:11</h3>
+                  <div className="post-content p-30">
+                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                        Tips & Trik <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
+                    <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
+                      Persiapan IELTS yang Efektif: Do's dan Dont'ts untuk Skor Terbaik</h2>
+                    <h3 className={'text-publish-article ${geistSans.variable}'}>
+                      05 AUGUST 2024 15:52</h3>
+                  </div>
                 </div>
-              </div>
-            </article>  
+            </article>
+            <article className="col-lg-4 col-md-6" >
+            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+                  <div className="thumb-overlay-article position-relative img-hover-article">
+                    <Image src={WorkHoli} alt="Working Holiday Visa (WHV) peluang tinggal di luar negeri.svg"></Image>
+                  </div>
+                  <div className="post-content p-30">
+                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                      Tips & Trik <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
+                    <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
+                      Working Holiday Visa (WHV): Peluang Tinggal dan Bekerja di Luar Negeri</h2>
+                    <h3 className={'text-publish-article ${geistSans.variable}'}>
+                      26 JULY 2024 16:18</h3>
+                  </div>
+                </div>
+            </article>
+            <article className="col-lg-4 col-md-6" >
+            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+                  <div className="thumb-overlay-article position-relative img-hover-article">
+                    <Image src={InfoLengkap} alt="Informasi Lengkap Tentang Working Holiday Visa Australia.svg"></Image>
+                  </div>
+                  <div className="post-content p-30">
+                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                      Tips & Trik <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
+                    <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
+                      Informasi Lengkap Tentang Working Holiday Visa (WHV) Australia</h2>
+                    <h3 className={'text-publish-article ${geistSans.variable}'}>
+                      28 MAY 2024 11:46</h3>
+                  </div>
+                </div>
+            </article>
+            </div>  
           </div>
         </div>
       </div>  
