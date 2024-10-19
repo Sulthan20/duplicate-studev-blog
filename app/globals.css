@@ -21,6 +21,11 @@
   src: url('fonts/Karla-Medium.ttf') format('truetype');
   font-weight: normal;
 }
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf') format('truetype');
+  font-weight: normal;
+} 
 .image-class {
     height: 50px; /* Atur ukuran gambar sesuai kebutuhan */
     width: auto;
@@ -46,6 +51,7 @@
     font-weight: 500;
     color: #000001;
     font-family: 'Crimson Pro';
+    letter-spacing: 0.7px;
 }
 .text-kategori {
     font-size: small;
@@ -65,6 +71,12 @@
   color: #000001;
   font-family: 'Crimson Pro Medium';
 }
+.text-isi-article {
+  font-size: 12px;
+  font-weight: normal;
+  color: #687385;
+  font-family: 'Karla';
+}
 .text-publish {
   font-size: 12px;
   font-weight: normal;
@@ -72,9 +84,14 @@
   font-family: 'Karla Medium';
 }
 .text-publish-article {
-  font-size: 8px;
+  font-size: 10px;
   color: #666666;
   font-family: 'Karla Medium';
+}
+.text-lihat-semua {
+  font-size: 14px;
+  color: #687385;
+  font-family: 'Karla';
 }
 .thumb-overlay {
     position: relative;
@@ -182,13 +199,31 @@
   display: flex;
   flex-wrap: wrap;
 }
- .col-lg-8 {
+.col-lg-8 {
   position: relative;
   padding-left: 50px;
   margin-right: -30px
 }
-.col-lg-4, .col-md-6 {
+.col-lg-4, .col-md-6, .col-lg-12 {
   position: relative;
   margin-right: -15px;
   padding-left: 50px;
+}
+.bg-grey {
+  background-color: #F7F8F9;
+  width: 100%;
+}
+.col-md-10 {
+  position: relative;
+  padding-top: 30px;
+
+}
+.col-md-2 {
+  padding-top: 28px;
+  text-align: right; /* atur agar teks di dalamnya rata kanan */
+  margin-right: 65px;
+}
+.row-mblog {
+  justify-content: space-between; /* jarak antara elemen diatur agar saling menjauh */
+  align-items: center; /* vertikal rata tengah */
 }

@@ -12,7 +12,7 @@ const Highlight = () => {
     <main>
       <div className="container">
         <div className="hot-tags align-self-center">
-          <div className="mx-auto h-[105px]  flex items-center justify-between">
+          <div className="mx-auto h-[105px] mt-6 -mb-6 flex items-center justify-between">
             <div className="widget-header-3">
               <div className="row align-self-center">
                 <div className="col-lg-8 align-self-center">

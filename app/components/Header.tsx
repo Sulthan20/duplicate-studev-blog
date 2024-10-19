@@ -26,7 +26,7 @@ const Header = () => {
                 </hr>
             </div>
             <div className="header-sticky">
-                <div className="container mx-auto h-[26px] px-[76px] flex items-center justify-between">
+                <div className="container mx-auto h-[10px] px-[76px] flex items-center justify-between">
                     <div className="col-md-10 col-xs-10 text-right header-top-right">
                         <div className="main-menu d-none d-lg-in line font-small">
                             <nav>
@@ -75,9 +75,9 @@ const Header = () => {
                             </nav>
                         </div>
                     </div>
-                        <button className="ml-auto list-none flex justify-center items-center gap-1">
+                        <button className="ml-auto mt-7 list-none flex justify-center items-center gap-1">
                             <li className={'text-programkursus ${geistSans.variable}'}>
-                                <a className="container mx-auto px-[30px] flex items-center justify-center gap-2">
+                                <a className="container mx-auto flex items-center justify-center gap-2">
                                     <Image src={Search} alt="Search.svg"/>
                                     Cari
                                 </a>    
