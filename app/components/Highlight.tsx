@@ -29,7 +29,7 @@ const Highlight = () => {
         
         <div className="loop-grid mb-30">
           <div className="block row">
-            <div className="flex items-center gap-5">
+            <div className="flex gap-5">
               <div className="col-lg-8 mb-30">
                 <div className="carausel-post-1 border-radius-10 overflow-hidden items-center justify-start">
                   <div className="thumb-overlay img-hover-slide position-relative">
@@ -45,17 +45,17 @@ const Highlight = () => {
                   </div>
                 </div>  
               </div>
-              <article className="col-lg-8 -ml-1.5" >
-                <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+              <article className="col-lg-8 -ml-1.5 mt-3 pt-4" >
+                <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(255,255,255,0.72)] shadow-lg ">
                   <div className="thumb-overlay-article position-relative img-hover-article">
                     <Image src={Memahami} alt="Memahami Dua Tahap Pendaftaran Beasiswa LPDP.svg"></Image>
                   </div>
                   <div className="post-content p-30">
-                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                    <h1 className={'text-kategori ${geistSans.variable} flex -mt-1 gap-1'}>
                         Info Beasiswa <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
-                    <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
+                    <h2 className={'text-judul-article ${geistSans.variable} mb-10'}>
                       Memahami Dua Tahap Pendaftaran Beasiswa LPDP</h2>
-                    <h3 className={'text-publish-article ${geistSans.variable}'}>
+                    <h3 className={'text-publish-article ${geistSans.variable} '}>
                       09 AUGUST 2024 13:11</h3>
                   </div>
                 </div>
@@ -63,12 +63,12 @@ const Highlight = () => {
             </div>
             <div className="flex ">
             <article className="col-lg-4 col-md-6 " >
-            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(255,255,255,0.72)] shadow-lg ">
                   <div className="thumb-overlay-article position-relative img-hover-article">
                     <Image src={Persiapan} alt="Persiapan IELTS.svg"></Image>
                   </div>
                   <div className="post-content p-30">
-                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                    <h1 className={'text-kategori ${geistSans.variable} flex -mt-1 gap-1'}>
                         Tips & Trik <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
                     <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
                       Persiapan IELTS yang Efektif: Do's dan Dont'ts untuk Skor Terbaik</h2>
@@ -78,12 +78,12 @@ const Highlight = () => {
                 </div>
             </article>
             <article className="col-lg-4 col-md-6" >
-            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(255,255,255,0.72)] shadow-lg ">
                   <div className="thumb-overlay-article position-relative img-hover-article">
                     <Image src={WorkHoli} alt="Working Holiday Visa (WHV) peluang tinggal di luar negeri.svg"></Image>
                   </div>
                   <div className="post-content p-30">
-                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                    <h1 className={'text-kategori ${geistSans.variable} flex -mt-1 gap-1'}>
                       Tips & Trik <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
                     <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
                       Working Holiday Visa (WHV): Peluang Tinggal dan Bekerja di Luar Negeri</h2>
@@ -93,12 +93,12 @@ const Highlight = () => {
                 </div>
             </article>
             <article className="col-lg-4 col-md-6" >
-            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(0,0,0,0.1)] shadow-lg ">
+            <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(255,255,255,0.72)] shadow-lg ">
                   <div className="thumb-overlay-article position-relative img-hover-article">
                     <Image src={InfoLengkap} alt="Informasi Lengkap Tentang Working Holiday Visa Australia.svg"></Image>
                   </div>
                   <div className="post-content p-30">
-                    <h1 className={'text-kategori ${geistSans.variable}  flex items-center gap-1'}>
+                    <h1 className={'text-kategori ${geistSans.variable} flex -mt-1 gap-1'}>
                       Tips & Trik <Image src={Ellipse} alt="Gray Ellipse .svg" className="mt-1"></Image></h1>
                     <h2 className={'text-judul-article ${geistSans.variable} mb-12'}>
                       Informasi Lengkap Tentang Working Holiday Visa (WHV) Australia</h2>
