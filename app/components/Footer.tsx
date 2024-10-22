@@ -29,12 +29,51 @@ const Footer = () => {
                     </image>
                 </div>
             </div>
-            <div className="position-relative -ml-9">
-                <li className={'text-hilight ${geistSans.variable} box-text list-none pb-2'}>
-                    PRODUK
-                </li>
-                <hr className="w-[150px] ml-12 border-t border-style-solid">
-                </hr>
+            <div className="flex justify-start -ml-9 -mr-100 mb-30">
+                <div className="w-[20%]">
+                    <li className={'text-hilight ${geistSans.variable} box-text list-none pb-2'}>PRODUK</li>
+                        <div className="box-with-border box-text mb-10">
+                            <hr className="w-[150px] border-t">
+                            </hr>
+                        </div>
+                    <li className={'text-footer-PL ${geistSans.variable} box-text list-none'}>
+                        Bimbingan Beasiswa
+                        <hr className="w-[150px] border-t mt-2 mb-2">
+                        </hr>
+                    </li>
+                    <li className={'text-footer-PL ${geistSans.variable} box-text list-none'}>
+                    Kelas IELTS Online
+                        <hr className="w-[150px] border-t mt-2 mb-2">
+                        </hr>
+                    </li>
+                    <li className={'text-footer-PL ${geistSans.variable} box-text list-none'}>
+                    Kelas TOEFL Online
+                        <hr className="w-[150px] border-t mt-2 mb-2">
+                        </hr>
+                    </li>
+                    <li className={'text-footer-PL ${geistSans.variable} box-text list-none'}>
+                    Kelas Bahasa Inggris Online
+                    <hr className="w-[150px] border-t mt-2 mb-2">
+                    </hr>
+                    </li>
+                </div>
+                <div className="w-[20%]">
+                    <li className={'text-hilight ${geistSans.variable} box-text list-none pb-2'}>LAINNYA</li>
+                    <div className="box-with-border box-text mb-10">
+                        <hr className="w-[150px] border-t">
+                        </hr>
+                    </div>
+                    <li className={'text-footer-PL ${geistSans.variable} box-text list-none'}>
+                    Kebijakan Privasi
+                        <hr className="w-[150px] border-t mt-2 mb-2">
+                        </hr>
+                    </li>
+                    <li className={'text-footer-PL ${geistSans.variable} box-text list-none'}>
+                    Kontak Kami
+                        <hr className="w-[150px] border-t mt-2 mb-2">
+                        </hr>
+                    </li>
+                </div>
             </div>
         </div>
     </footer>
