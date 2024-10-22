@@ -269,7 +269,7 @@ const MBlog = () => {
           <hr className="w-[950px] ml-12 border-t border-style-solid">
           </hr>
         </div>
-        <div className="block row">
+        <div className="block row pb-20">
           <div className="flex ml-1 gap-6">
             <article className="col-lg-8 -ml-1.5 pt-10" >
               <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(255,255,255,0.72)] shadow-lg ">
@@ -305,7 +305,7 @@ const MBlog = () => {
                 </div>
               </div>
             </article>
-            <article className="col-lg-8 -ml-1.5 pt-10" >
+            <article className="col-lg-8 -ml-1.5 pt-10 pb-10" >
               <div className="w-[341px] bg-white rounded-[10px] border border-[rgba(255,255,255,0.72)] shadow-lg ">
                 <div className="thumb-overlay-article position-relative img-hover-article">
                   <Image src={Kuliah3} alt="Kuliah Luar Negeri 3.svg"></Image>

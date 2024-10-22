@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Highlight from "./components/Highlight";
 import MBlog from "./components/MBlog";
+import Footer from "./components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <Header />
         <Highlight />
         <MBlog />
+        <Footer/>
         {children}
         </div>
       </body>
